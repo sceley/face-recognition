@@ -12,7 +12,7 @@ let failCount = 0;
 let successCount = 0;
 let existCount = 0;
 let personset = [];
-let files = fs.readFileFilterSync(path.join(__dirname, 'img'), pattern);
+let files = fs.readFileFilterSync(path.join(__dirname, 'images'), pattern);
 let filePattern = file => {
 	let result;
 	let pattern1 = /(\d{8})-?([\u4e00-\u9fa5]+)\.(jpg|png)$/;
